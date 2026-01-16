@@ -1,0 +1,1 @@
+import{d as t}from"./index.60323709.js";const r=t("global",{state:()=>({counter:0,user:{},isLoggedIn:!!localStorage.getItem("token")}),getters:{doubleCount:e=>e.counter*2},actions:{increment(){this.counter++}}});export{r as g};

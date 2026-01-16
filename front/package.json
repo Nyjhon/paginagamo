@@ -1,0 +1,54 @@
+{
+  "name": "gamo",
+  "version": "0.0.1",
+  "description": "pagina web",
+  "productName": "GAMO",
+  "author": "Ing. Jhonny Ari Huayllani",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.7.2",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.4.4",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "gojs": "^3.0.24",
+    "image-to-base64": "^2.2.0",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "moment": "^2.30.1",
+    "pdf-lib": "^1.17.1",
+    "pdfmake": "^0.2.10",
+    "pinia": "^2.2.2",
+    "qrcode": "^1.5.4",
+    "qrcodejs2": "^0.0.2",
+    "quasar": "^2.16.0",
+    "stream-browserify": "^3.0.0",
+    "vue": "^3.4.18",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.0.12",
+    "vuex-smart-module": "^0.6.2"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.11.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "vite-plugin-checker": "^0.6.4"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
